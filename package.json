@@ -1,6 +1,19 @@
 {
-  "name": "typescript",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {}
+  "name": "wc-chart",
+  "version": "1.0.0",
+  "flat": true,
+  "description": "glyconavi disease pie chart",
+  "main": "index.html",
+  "repository": "https://gitlab.sparqlite.com/all/wc-chart",
+  "author": "glyconavi",
+  "license": "Apache License",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0",
+    "@webcomponents/webcomponentsjs": "^1.0.20",
+    "@polymer/iron-ajax": "^3.0.1",
+    "@google-web-components/google-chart": "^3.0.4"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.20"
+  }
 }
